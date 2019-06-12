@@ -1,0 +1,16 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>in ra bien</title>
+</head>
+<body>
+<script>
+   let width = 40;
+   let height = 20;
+   let dientich = width*height
+    alert( " dien tich la"+ dientich)
+</script>
+</body>
+</html>
