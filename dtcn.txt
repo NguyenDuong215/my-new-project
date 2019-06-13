@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dientichv</title>n
+</head>
+<body>
+<script>
+let Cr ;
+let cd;
+Cr= prompt( " nhap chieu rong");
+cd = prompt( " nhap chieu dai");
+let r = parseInt(Cr)
+let d = parseInt(cd)
+let area = Cr*cd;
+document.write(" the "+ area);
+
+
+</script>
+</body>
+</html>
