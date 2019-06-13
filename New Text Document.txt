@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>dtb</title>
+    <body>
+    <form action="action_page.php">
+        Toan :
+    <input id = "a1" type ="text"/>
+        ly:
+        <input id= "a2" type = "text"/>
+hoa:
+<input id = "a3" type="text"/>
+
+<button onclick ="myfunction()"> dtb</button>
+        </form>
+        <script>
+            function myfunction(){
+let t= document.getElementById('a1').value;
+let l=document.getElementById('a2').value;
+let hoa=document.getElementById('a3').value;
+let s1= parseInt(t);
+let s2= parseInt(l);
+let s3= parseInt(hoa);
+let dtb = (s1+s2+s3)/3;
+alert("dtb:"+dtb);
+            }
+        </script>
+
+</body>
+</html>
