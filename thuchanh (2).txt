@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang ="en" >
+<body>
+<script>
+    var myDate = function( day,month,year){
+        this.day=day;
+        this.month=month;
+        this.year=year;//khai bao tham so truyen vao
+        this.getDay= function(){
+            return this.day;
+        }
+        this.getMonth= function(){
+            return this.month;
+        }
+        this.getYear= function() {
+            return this.year;
+        }// phuong thuc tra ve ngay thang nam
+        this.setDay= function(day){
+            this.day = day;
+        }
+        this.setMonth= function(month){
+            this.month =month;
+        }
+        this.setYear= function(year) {
+            this.year= year;
+
+        }//thiet lap lai ngay thang nam
+
+
+        };
+        let date = new myDate(18,06,2019);
+
+        let day = date.getDay();
+        let month = date.getMonth();
+        let year = date.getYear();
+
+
+
+
+    alert( day +"/"+ month + "/"+ year);
+
+
+
+</script>
+</body>
+</html>
